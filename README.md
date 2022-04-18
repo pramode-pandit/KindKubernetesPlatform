@@ -8,7 +8,7 @@
 #### 1. create a kubernetes cluster
 
 ```
-kind create cluster --name devks --config kind-config.yaml
+kind create cluster --name insight --config kind-config.yaml
 ```
 
 #### 2. verify the kubernetes cluster.
@@ -20,5 +20,5 @@ kind get clusters
 #### 3. connect kubectl to new cluster
 
 ```
-kubectl cluster-info --context kind-devks
+kubectl cluster-info --context kind-insight
 ```
